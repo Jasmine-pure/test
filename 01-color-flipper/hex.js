@@ -9,6 +9,7 @@ btn.addEventListener("click", function () {
     let d = getRandomNumber();
     hexColor += hex[d];
   }
+  color.textContent = hexColor;
 });
 
 function getRandomNumber() {
